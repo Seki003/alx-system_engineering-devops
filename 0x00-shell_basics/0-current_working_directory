@@ -1,2 +1,2 @@
 #!/bin/bash
-man pwd
+echo $PWD
