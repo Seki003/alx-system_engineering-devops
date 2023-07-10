@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "replace A and c with Z and e" | tr "A" "Z" | tr "c" "e"
+tr "A" "Z" | tr "c" "e"
