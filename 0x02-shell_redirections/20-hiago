@@ -1,2 +1,2 @@
 #!/bin/bash
-tr "C" [:blank:] | tr "c" [:blank:]
+tr -d "Cc"
