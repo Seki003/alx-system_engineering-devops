@@ -1,2 +1,2 @@
 #!/bin/bash
-echo path="$PATH" | wc -w path
+echo $PATH | tr ":/" [:blank:] | wc -w
